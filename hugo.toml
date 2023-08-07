@@ -1,0 +1,23 @@
+baseURL = 'https://lht97.github.io/'
+languageCode = 'en-us'
+title = 'Haitian LI'
+theme = 'mainroad'
+
+[Params.logo]
+  image = 'img/li.jpg'
+  title = 'Haitian LI'
+  subtitle = 'PhD Candidate'
+
+[Params.style.vars]
+  highlightColor = '#016064'
+
+[[menus.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menus.main]]
+name = "Resume"
+url = "/"
+weight = 2
+
