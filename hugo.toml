@@ -26,12 +26,21 @@ name = "Project"
 url = "/"
 weight = 3
 
+[params.sidebar]
+home = "right"
+list = "right"
+single = "right"
+widgets = ["recent", "categories", "taglist", "social", "languages"]
+
+[params.thumbnail]
+visibility = ["list"]
+
 [params.widgets]
-recent_num = 5
+recent_num = 3
 
 [[params.widgets.social.custom]]
-title = "hai-tian.li@polyu.edu.hk"
-url = "mailto:tom.ragonneau@polyu.edu.hk"
+title = "hai-tian.li@connect.edu.hk"
+url = "mailto:hai-tian.li@connect.edu.hk"
 icon = "svg/email.svg"
 
 [[params.widgets.social.custom]]
