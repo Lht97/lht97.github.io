@@ -21,11 +21,6 @@ name = "Resume"
 url = "documents/cv.pdf"
 weight = 2
 
-[[menus.main]]
-name = "Project"
-url = "/"
-weight = 3
-
 [params.sidebar]
 home = "right"
 list = "right"
