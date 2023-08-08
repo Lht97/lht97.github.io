@@ -18,7 +18,7 @@ weight = 1
 
 [[menus.main]]
 name = "Resume"
-url = "/documents/CV.pdf"
+url = "documents/cv.pdf"
 weight = 2
 
 [[menus.main]]
