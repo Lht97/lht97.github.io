@@ -26,4 +26,21 @@ name = "Project"
 url = "/"
 weight = 3
 
+[params.widgets]
+recent_num = 5
+
+[[params.widgets.social.custom]]
+title = "hai-tian.li@polyu.edu.hk"
+url = "mailto:tom.ragonneau@polyu.edu.hk"
+icon = "svg/email.svg"
+
+[[params.widgets.social.custom]]
+title = "GitHub"
+url = "https://github.com/lht97"
+icon = "svg/github.svg"
+
+[[params.widgets.social.custom]]
+title = "ORCID"
+url = "https://orcid.org/0000-0003-2717-2876"
+icon = "svg/orcid.svg"
 
