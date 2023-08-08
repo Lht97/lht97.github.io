@@ -21,3 +21,8 @@ name = "Resume"
 url = "/"
 weight = 2
 
+[[menus.main]]
+name = "Project"
+url = "/"
+weight = 3
+
