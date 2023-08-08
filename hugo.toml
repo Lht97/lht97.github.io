@@ -18,11 +18,12 @@ weight = 1
 
 [[menus.main]]
 name = "Resume"
-url = "/"
+url = "/documents/CV.pdf"
 weight = 2
 
 [[menus.main]]
 name = "Project"
 url = "/"
 weight = 3
+
 
