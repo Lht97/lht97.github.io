@@ -15,7 +15,7 @@ My research interests include [derivative-free optimization](https://en.wikipedi
 - PhD in Applied Mathematics, [Department of Applied Mathematics](https://www.polyu.edu.hk/ama/), [The Hong Kong Polytechnic University](https://www.polyu.edu.hk), Hong Kong SAR, China, 2021--now.
   - Co-supervised by Dr. [Zaikun Zhang](https://www.zhangzk.net) and Prof. [Xiaojun Chen](https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm).
 - MSc in [Financial Engineering](https://sds.cuhk.edu.cn/en/page/364), [The Chinese University of Hong Kong, Shenzhen](https://cuhk.edu.cn/en), Shenzhen, China, 2019--2021
-- Bsc in Maths and applied maths, Department of Mathematics, [Jilin University](https://math.jlu.edu.cn/English/Home.htm), Changchun, China, 2015--2019.
+- BSc in Mathmatics and Applied Mathmatics, Department of Mathematics, [Jilin University](https://math.jlu.edu.cn/English/Home.htm), Changchun, China, 2015--2019.
 
 ## Work experience
 
