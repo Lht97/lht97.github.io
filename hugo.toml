@@ -29,7 +29,7 @@ mathjax = true
 post_meta = ["author", "date", "categories", "translations"]
 
 [params.sidebar]
-home = "right"
+home = "left"
 list = "right"
 single = "right"
 widgets = ["recent", "categories", "taglist", "social", "languages"]
