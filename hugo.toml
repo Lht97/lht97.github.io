@@ -41,7 +41,7 @@ visibility = ["list"]
 recent_num = 5
 
 [[params.widgets.social.custom]]
-title = "hai-tian.li@polyu.connect.hk"
+title = "email"
 url = "mailto:hai-tian.li@polyu.connect.hk"
 icon = "svg/email.svg"
 
