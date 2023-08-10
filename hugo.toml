@@ -39,11 +39,18 @@ widgets = ["recent", "categories", "taglist", "social", "languages"]
 isibility = ["list"]
 
 [params.widgets]
-recent_num = 5
+recent_num = 3
 categories_counter = false # Enable counter for each category in "Categories" widget
 tags_counter = false # Enable counter for each tag in "Tags" widget
 
 [[params.widget.social.custom]]
 title = "Github"
 url = "https://github.com/lht97"
-icon = "svg/github.svg"
+
+[[params.widgets.social.custom]]
+title = "hai-tian.li@polyu.edu.hk"
+url = "mailto:hai-tian.li@polyu.edu.hk"
+
+[[params.widgets.social.custom]]
+title = "ORCID"
+url = "https://orcid.org/0000-0003-2717-2876"
