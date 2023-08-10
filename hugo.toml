@@ -21,7 +21,36 @@ name = "Resume"
 url = "documents/cv.pdf"
 weight = 2
 
-[[params.social]]
+[params]
+customCSS = ["css/ragonneau.css"]
+description = "Haitian LI's personal website"
+mainSections = ["Project"]
+mathjax = true
+post_meta = ["author", "date", "categories", "translations"]
+
+[params.sidebar]
+home = "right"
+list = "right"
+single = "right"
+widgets = ["recent", "categories", "taglist", "social", "languages"]
+
+[params.thumbnail]
+visibility = ["list"]
+
+[params.widgets]
+recent_num = 5
+
+[[params.widgets.social.custom]]
+title = "hai-tian.li@polyu.connect.hk"
+url = "mailto:hai-tian.li@polyu.connect.hk"
+icon = "svg/email.svg"
+
+[[params.widgets.social.custom]]
+title = "GitHub"
+url = "https://github.com/lht97"
+icon = "svg/github.svg"
+
+[[params.widgets.social.custom]]
 title = "ORCID"
 url = "https://orcid.org/0000-0002-9477-1222"
-
+icon = "svg/orcid.svg"
