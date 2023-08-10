@@ -34,7 +34,7 @@ list = "right"
 single = "right"
 widgets = ["recent", "categories", "taglist", "social", "languages"]
 
-[Params.thumbnail]
+[params.thumbnail]
 # Show thumbnail only for list items
 isibility = ["list"]
 
