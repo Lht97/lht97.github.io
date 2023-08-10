@@ -22,7 +22,7 @@ url = "documents/cv.pdf"
 weight = 2
 
 [params]
-customCSS = ["css/ragonneau.css"]
+customCSS = ["css/li.css"]
 description = "Haitian LI's personal website"
 mainSections = ["Project"]
 mathjax = true
