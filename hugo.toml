@@ -21,7 +21,7 @@ name = "Resume"
 url = "documents/cv.pdf"
 weight = 2
 
-[[params.widgets.social.custom]]
+[[params.social]]
 title = "ORCID"
 url = "https://orcid.org/0000-0002-9477-1222"
 
