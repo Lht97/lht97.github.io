@@ -1,16 +1,11 @@
 <div class="sidebar-widget">
   <h3 class="widget-title">Social</h3>
   <ul class="widget-social">
-    {{ range .Site.Params.sidebar.widgets }}
-      {{ if eq . "social" }}
-        {{ range .Site.Params.widget.social.custom }}
-          <li>
-            <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
-              {{ .title }}
-            </a>
-          </li>
-        {{ end }}
-      {{ end }}
+    {{ range .Site.Params.widget.social.custom }}
+    <li>
+      <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+      </a>
+    </li>
     {{ end }}
   </ul>
 </div>
