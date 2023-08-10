@@ -46,3 +46,4 @@ tags_counter = false # Enable counter for each tag in "Tags" widget
 [[params.widget.social.custom]]
 title = "Github"
 url = "https://github.com/lht97"
+icon = "svg/github.svg"
