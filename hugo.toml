@@ -27,6 +27,7 @@ description = "Haitian LI's personal website"
 mainSections = ["Project"]
 mathjax = true
 post_meta = ["author", "date", "categories", "translations"]
+github = "https://github.com/lht97"
 
 [params.sidebar]
 home = "right"
@@ -34,21 +35,13 @@ list = "right"
 single = "right"
 widgets = ["recent", "categories", "taglist", "social", "languages"]
 
-[params.thumbnail]
-visibility = ["list"]
+[Params.thumbnail]
+# Show thumbnail only for list items
+isibility = ["list"]
 
 [params.widgets]
 recent_num = 5
 categories_counter = false # Enable counter for each category in "Categories" widget
 tags_counter = false # Enable counter for each tag in "Tags" widget
 
-[Params.widgets.social]
-# Enable parts of social widget
-github = "lht97"
-email = "hai-tian.li@connect.polyu.hk"
-
-# Custom social links
-[[Params.widgets.social.custom]]
-title = "Github"
-url = "https://github.com/username"
 
