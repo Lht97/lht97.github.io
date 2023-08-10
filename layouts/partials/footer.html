@@ -1,1 +1,20 @@
-<a href="{{ .Site.Params.github }}" target="_blank" rel="noopener">GitHub</a>
+<footer>
+  <!-- 其他内容 -->
+
+  <div class="social-icons">
+    <ul>
+      <!-- 其他社交媒体链接 -->
+
+      <!-- GitHub链接 -->
+      {{ range .Site.Params.widget.social.custom }}
+      <li>
+        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+          {{ .title }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+
+  <!-- 其他内容 -->
+</footer>
