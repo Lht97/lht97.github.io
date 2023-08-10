@@ -21,30 +21,7 @@ name = "Resume"
 url = "documents/cv.pdf"
 weight = 2
 
-[params.sidebar]
-home = "right"
-list = "right"
-single = "right"
-widgets = ["recent", "categories", "taglist", "social", "languages"]
-
-[params.thumbnail]
-visibility = ["list"]
-
-[params.widgets]
-recent_num = 3
-
-[[params.widgets.social.custom]]
-title = "hai-tian.li@connect.edu.hk"
-url = "mailto:hai-tian.li@connect.edu.hk"
-icon = "svg/email.svg"
-
-[[params.widgets.social.custom]]
-title = "GitHub"
-url = "https://github.com/lht97"
-icon = "svg/github.svg"
-
 [[params.widgets.social.custom]]
 title = "ORCID"
 url = "https://orcid.org/0000-0002-9477-1222"
-icon = "svg/orcid.svg"
 
