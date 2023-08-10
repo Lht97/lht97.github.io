@@ -46,12 +46,10 @@ tags_counter = false # Enable counter for each tag in "Tags" widget
 cached = false # activate cache if true
 # Enable parts of social widget
 github = "lht97"
-email = "example@example.com"
+email = "hai-tian.li@connect.polyu.hk"
 
 # Custom social links
 [[Params.widgets.social.custom]]
 title = "Github"
 url = "https://github.com/username"
-icon = "github.svg" # Optional. Path relative to "layouts/partials"
-rel = "noopener noreferrer" # Set to false to remove the rel attribute
 
