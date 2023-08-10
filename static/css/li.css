@@ -1,0 +1,29 @@
+/* Customized header */
+
+.logo__img {
+    border-radius: 50%;
+    border: 2px solid #A5C9FF;
+}
+
+/* Customized footer to include a license */
+
+.footer__copyright {
+    -webkit-flex: 1 0 65.83%;
+    flex: 1 0 65.83%;
+    -webkit-order: 1;
+    order: 1;
+    min-width: 0;
+}
+
+@media screen and (max-width: 900px) {
+    .footer__license {
+        text-align: center;
+    }
+}
+
+/* Rounded corners for badges */
+
+.btn, .tags__badge, .tags__item {
+    border-radius: 5px;
+}
+
