@@ -42,17 +42,16 @@ recent_num = 5
 categories_counter = false # Enable counter for each category in "Categories" widget
 tags_counter = false # Enable counter for each tag in "Tags" widget
 
-[[params.widgets.social.custom]]
-title = "email"
-url = "mailto:hai-tian.li@polyu.connect.hk"
-icon = "email.svg"
+[Params.widgets.social]
+cached = false # activate cache if true
+# Enable parts of social widget
+github = "lht97"
+email = "example@example.com"
 
-[[params.widgets.social.custom]]
-title = "GitHub"
-url = "https://github.com/lht97"
-icon = "github.svg"
+# Custom social links
+[[Params.widgets.social.custom]]
+title = "Github"
+url = "https://github.com/username"
+icon = "github.svg" # Optional. Path relative to "layouts/partials"
+rel = "noopener noreferrer" # Set to false to remove the rel attribute
 
-[[params.widgets.social.custom]]
-title = "ORCID"
-url = "https://orcid.org/0000-0002-9477-1222"
-icon = "orcid.svg"
