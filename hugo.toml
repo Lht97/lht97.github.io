@@ -43,7 +43,6 @@ categories_counter = false # Enable counter for each category in "Categories" wi
 tags_counter = false # Enable counter for each tag in "Tags" widget
 
 [Params.widgets.social]
-cached = false # activate cache if true
 # Enable parts of social widget
 github = "lht97"
 email = "hai-tian.li@connect.polyu.hk"
