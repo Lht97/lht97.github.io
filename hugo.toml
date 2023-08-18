@@ -1,15 +1,8 @@
-baseURL = 'https://lht97.github.io/'
-languageCode = 'en-us'
-title = 'Haitian LI'
-theme = 'mainroad'
-
-[Params.logo]
-  image = 'img/li.jpg'
-  title = 'Haitian LI'
-  subtitle = 'PhD Candidate'
-
-[Params.style.vars]
-  highlightColor = '#016064'
+baseURL = "https://lht97.github.io/"
+title = "Haitian LI"
+languageCode = "en-us"
+paginate = "10"
+theme = "mainroad"
 
 [[menus.main]]
 name = "Home"
@@ -18,39 +11,36 @@ weight = 1
 
 [[menus.main]]
 name = "Resume"
-url = "documents/cv.pdf"
+url = "/documents/cv.pdf"
 weight = 2
 
 [params]
-customCSS = ["css/li.css"]
 description = "Haitian LI's personal website"
-mainSections = ["Project"]
+mainSections = []
 mathjax = true
 post_meta = ["author", "date", "categories", "translations"]
 
+[params.logo]
+image = "img/li.jpg"
+title = "Haitian LI"
+subtitle = "PhD Candidate"
+
 [params.sidebar]
-home = "left"
+home = "right"
 list = "right"
 single = "right"
 widgets = ["recent", "categories", "taglist", "social", "languages"]
 
+[params.style.vars]
+highlightColor = "#016064"
+
 [params.thumbnail]
-# Show thumbnail only for list items
-isibility = ["list"]
+visibility = ["list"]
 
 [params.widgets]
 recent_num = 3
-categories_counter = false # Enable counter for each category in "Categories" widget
-tags_counter = false # Enable counter for each tag in "Tags" widget
 
-[[params.widget.social.custom]]
-title = "Github"
-url = "https://github.com/lht97"
+[params.widgets.social]
+github = "lht97"
+email = "hai-tian.li@connect.polyu.hk"
 
-[[params.widgets.social.custom]]
-title = "hai-tian.li@polyu.edu.hk"
-url = "mailto:hai-tian.li@polyu.edu.hk"
-
-[[params.widgets.social.custom]]
-title = "ORCID"
-url = "https://orcid.org/0000-0003-2717-2876"
