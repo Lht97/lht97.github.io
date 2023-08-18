@@ -44,3 +44,8 @@ recent_num = 3
 github = "lht97"
 email = "hai-tian.li@connect.polyu.hk"
 
+[[Params.widgets.social.custom]]
+title = "My Home Page"
+url = "https://example.com"
+
+
