@@ -5,7 +5,7 @@ weight: 5
 draft: false
 ---
 
-This page records the talk I am going to give or I have given. Slides and the link of conferences are available.
+This page records the talks I am going to give or I have given. Slides and the link of conferences are available.
 
 ## 2023
 
