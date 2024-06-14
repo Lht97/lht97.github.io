@@ -15,7 +15,7 @@ This page records the talks I am going to give or I have given. Slides and the l
 
 ## 2024
 
-- [Blockwise Direct-Search Methods](/documents/ASA2024.pdf). [ASA2024](https://www.orsc.org.cn/wechat/article/detail?id=907), ASA2024, Xinxiang, China, 2024.
+- [Blockwise Direct-Search Methods](/documents/ASA2024.pdf). [ASA2024](https://www.orsc.org.cn/wechat/article/detail?id=907),  Xinxiang, China, 2024.
 
 - [Blockwise Direct-Search Methods]. [2nd Derivative-Free Optimization Symposium](https://sites.google.com/diag.uniroma1.it/dfos24/home), Padova, Italy, 2024.
 
