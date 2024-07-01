@@ -38,7 +38,7 @@ highlightColor = "#016064"
 visibility = ["list"]
 
 [params.widgets]
-recent_num = 3
+recent_num = 5
 
 [params.widgets.social]
 github = "lht97"
@@ -49,4 +49,7 @@ title = "ORCID"
 url = "https://orcid.org/0000-0002-9477-1222"
 icon = "svg/orcid.svg"
 
-
+[[params.widgets.social.custom]]
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/li-haitian-595a74233/"
+icon = "svg/linkedin.svg"
