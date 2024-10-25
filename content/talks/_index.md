@@ -19,3 +19,5 @@ This page records the talks I am going to give, or I have given. Slides and the 
 
 - [Blockwise Direct-Search Methods](/documents/ismp2024.pdf). [25th International Symposium on Mathematical Programming](https://ismp2024.gerad.ca/), Montréal, Canada, 2024. (Represented by Zaikun Zhang)
 
+- [Blockwise Direct-Search Methods](/documents/ORSC2024.pdf). [ORSC2024](https://conf.orsc.org.cn/conferences/detail?id=25), Guiyang, China, 2024.
+
