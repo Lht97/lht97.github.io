@@ -2,7 +2,7 @@
 draft: false
 ---
 
-I am a PhD candidate at the [Department of Applied Mathematics](https://www.polyu.edu.hk/ama/) at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk), advised by Dr. [Zaikun Zhang](https://www.zhangzk.net) and Prof. [Xiaojun Chen](https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm).
+I am a PhD candidate at the [Department of Applied Mathematics](https://www.polyu.edu.hk/ama/) at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk), advised by Prof. [Zaikun Zhang](https://www.zhangzk.net) and Prof. [Xiaojun Chen](https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm).
 
 ## Research overview
 
