@@ -18,3 +18,4 @@ My research interests include [derivative-free optimization](https://en.wikipedi
 ## Work experience
 
 - Research Assistant at the [Department of Applied Mathematics](https://www.polyu.edu.hk/ama/), [The Hong Kong Polytechnic University](https://www.polyu.edu.hk), Hong Kong SAR, China, 2020.11--2021.06.
+- Research Assistant at the [School of Mathematics](https://math.sysu.edu.cn/), [Sun Yat-Sen University](https://www.sysu.edu.cn/), Guang Zhou, China, 2025.02--now.

@@ -42,12 +42,7 @@ recent_num = 5
 
 [params.widgets.social]
 github = "lht97"
-email = "hai-tian.li@connect.polyu.hk"
-
-[[params.widgets.social.custom]]
-title = "ORCID"
-url = "https://orcid.org/0000-0002-9477-1222"
-icon = "svg/orcid.svg"
+email = "lhtian97@gmail.com"
 
 [[params.widgets.social.custom]]
 title = "LinkedIn"
