@@ -201,6 +201,11 @@ body.colorscheme-auto {
   margin-top: 3.2rem;
 }
 
+// Remove external-link icon globally
+a.external-link::after {
+  display: none !important;
+}
+
 // Vertically balance the homepage
 .container.centered {
   min-height: calc(100vh - 14rem);
