@@ -4,7 +4,7 @@ date: 2024-04-27T00:00:00+08:00
 draft: false
 ---
 
-我是[香港理工大学](https://www.polyu.edu.hk)[应用数学系](https://www.polyu.edu.hk/ama/)的博士研究生，导师为 [Zaikun Zhang](https://www.zhangzk.net) 教授和 [Xiaojun Chen](https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm) 教授。
+我是[香港理工大学](https://www.polyu.edu.hk)[应用数学系](https://www.polyu.edu.hk/ama/)的博士研究生，导师为 [张在坤](https://www.zhangzk.net) 教授和 [陈小君](https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm) 教授。
 
 ## 研究概述
 
@@ -16,7 +16,7 @@ draft: false
   <div class="timeline-item">
     <div class="timeline-date">2021.09 – 至今</div>
     <div class="timeline-title">应用数学博士研究生</div>
-    <div class="timeline-detail"><a href="https://www.polyu.edu.hk">香港理工大学</a>，中国香港<br>导师：<a href="https://www.zhangzk.net">Zaikun Zhang</a> 教授和 <a href="https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm">Xiaojun Chen</a> 教授</div>
+    <div class="timeline-detail"><a href="https://www.polyu.edu.hk">香港理工大学</a>，中国香港<br>导师：<a href="https://www.zhangzk.net">张在坤</a> 教授和 <a href="https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm">陈小君</a> 教授</div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">2019.09 – 2021.06</div>

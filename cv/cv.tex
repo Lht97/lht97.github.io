@@ -1,0 +1,147 @@
+\documentclass[11pt,a4paper]{article}
+
+% Page layout
+\usepackage[margin=2.2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+% Colors & links
+\usepackage{xcolor}
+\definecolor{linkblue}{RGB}{0,102,204}
+\usepackage[colorlinks=true,linkcolor=linkblue,urlcolor=linkblue,citecolor=linkblue]{hyperref}
+
+% Lists
+\usepackage{enumitem}
+
+% Graphics
+\usepackage{graphicx}
+\usepackage{tikz}
+
+% Icons
+\IfFileExists{fontawesome5.sty}{\usepackage{fontawesome5}}{%
+  \newcommand{\faIcon}[1]{}
+  \newcommand{\faEnvelope}{}
+  \newcommand{\faGlobe}{}
+  \newcommand{\faGithub}{}
+  \newcommand{\faLinkedin}{}
+}
+
+% Remove page numbers
+\pagenumbering{gobble}
+
+% Custom section command
+\newcommand{\cvsection}[1]{%
+  \vspace{0.9em}%
+  \noindent\textbf{\Large #1}%
+  \vspace{0.3em}%
+  \hrule height 0.4pt%
+  \vspace{0.6em}%
+}
+
+% Two-column entry: time | content
+\newcommand{\cventry}[3]{%
+  \noindent
+  \begin{minipage}[t]{0.16\textwidth}
+    \raggedright
+    \textcolor{gray}{\small #1}%
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.80\textwidth}
+    \textbf{#2}\par
+    #3%
+  \end{minipage}%
+  \vspace{0.7em}%
+}
+
+% Compact item: time | description
+\newcommand{\cvitem}[2]{%
+  \noindent
+  \begin{minipage}[t]{0.16\textwidth}
+    \raggedright
+    \textcolor{gray}{\small #1}%
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.80\textwidth}
+    #2%
+  \end{minipage}%
+  \vspace{0.3em}%
+}
+
+\begin{document}
+
+% Header: left info | right photo
+\noindent
+\begin{minipage}[t]{0.72\textwidth}
+  \vspace{0pt}
+  {\Huge \textbf{Haitian LI}}\\[0.3em]
+  {\large PhD Candidate in Applied Mathematics}\\[0.5em]
+  \faEnvelope\ \href{mailto:lhtian97@gmail.com}{lhtian97@gmail.com}\\[0.2em]
+  \faGlobe\ \href{https://lht97.github.io/}{lht97.github.io}\\[0.2em]
+  \faGithub\ \href{https://github.com/lht97}{GitHub}\\[0.2em]
+  \faLinkedin\ \href{https://www.linkedin.com/in/li-haitian/}{LinkedIn}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.22\textwidth}
+  \vspace{0pt}
+  \begin{flushright}
+    \begin{tikzpicture}
+      \clip (0,0) circle (1.6cm);
+      \node[yshift=-0.4cm] at (0,0) {\includegraphics[width=3.4cm]{../static/img/li.jpg}};
+    \end{tikzpicture}
+  \end{flushright}
+\end{minipage}
+
+\vspace{0.6em}
+
+% Education
+\cvsection{Education}
+
+\cventry{2025.02--Present}{PhD Candidate in Applied Mathematics}{%
+  The Hong Kong Polytechnic University, Hong Kong SAR, China.\\
+  Derivative-free optimization, especially direct-search methods.\\
+  Supervisor: Prof.~Xiaojun Chen; Co-supervisor: Prof.~Zaikun Zhang
+}
+
+\cventry{2021.09--2025.01}{PhD Candidate in Applied Mathematics}{%
+  The Hong Kong Polytechnic University, Hong Kong SAR, China.\\
+  Derivative-free optimization, especially direct-search methods.\\
+  Supervisor: Dr.~Zaikun Zhang; Co-supervisor: Prof.~Xiaojun Chen
+}
+
+\cventry{2019--2021}{MSc in Financial Engineering}{%
+  The Chinese University of Hong Kong, Shenzhen, Shenzhen, China
+}
+
+\cventry{2015--2019}{BSc in Mathematics and Applied Mathematics}{%
+  Jilin University, Changchun, China
+}
+
+% Selected Presentations
+\cvsection{Selected Presentations}
+
+\cvitem{2024}{\textbf{Blockwise Direct-Search Methods} (represented by Prof.~Zaikun Zhang). 25th International Symposium on Mathematical Programming (ISMP), Montr\'eal, Canada.}
+
+\cvitem{2024}{\textbf{Blockwise Direct-Search Methods}. 2nd Derivative-Free Optimization Symposium (DFOS), Padova, Italy.}
+
+% Software
+\cvsection{Software}
+
+\textbf{BDS} -- A package for solving unconstrained optimization problems without using derivatives.
+\begin{itemize}[leftmargin=1.5em,nosep,topsep=0.2em]
+  \item \textbf{MATLAB version:} \href{https://github.com/blockwise-direct-search/bds}{github.com/blockwise-direct-search/bds}
+  \item \textbf{Python version:} \href{https://github.com/blockwise-direct-search/bds\_python}{github.com/blockwise-direct-search/bds\_python}
+\end{itemize}
+
+% Honors & Awards
+\cvsection{Honors \& Awards}
+\textit{To be added.}
+
+% Skills
+\cvsection{Skills}
+
+\noindent\textbf{Languages:} Mandarin (native), English (professional)\\[0.3em]
+\textbf{Programming:} Python, MATLAB, Git, Linux
+
+\end{document}
