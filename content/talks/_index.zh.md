@@ -11,7 +11,7 @@ draft: false
 
 ## 2024
 
-- <span class="talk-badge talk-badge-oral">口头报告</span> [分块直接搜索方法](/documents/ORSC2024.pdf)，[中国运筹学会2024年学术年会](https://conf.orsc.org.cn/conferences/detail?id=25)，中国贵阳，2024。
+- <span class="talk-badge talk-badge-poster">海报</span> [分块直接搜索方法](/documents/ORSC2024.pdf)，[中国运筹学会2024年学术年会](https://conf.orsc.org.cn/conferences/detail?id=25)，中国贵阳，2024。
 
 - <span class="talk-badge talk-badge-oral">口头报告</span> [分块直接搜索方法](/documents/ismp2024.pdf)，[第25届国际数学规划研讨会](https://ismp2024.gerad.ca/)，加拿大蒙特利尔，2024。（由张在坤代为报告）
 
