@@ -1,50 +1,106 @@
 baseURL = "https://lht97.github.io/"
-title = "Haitian LI"
-languageCode = "en-us"
-paginate = "10"
-theme = "mainroad"
+theme = "hugo-coder"
+defaultContentLanguage = "en"
+enableEmoji = true
 
-[[menus.main]]
-name = "Home"
-url = "/"
-weight = 1
+[pagination]
+pagerSize = 10
 
-[[menus.main]]
-name = "Resume"
-url = "/documents/cv.pdf"
-weight = 2
+[markup]
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 
 [params]
-description = "Haitian LI's personal website"
-mainSections = []
-mathjax = true
-post_meta = ["author", "date", "categories", "translations"]
+avatarURL = "img/li.jpg"
+since = 2021
+colorScheme = "dark"
+hideColorSchemeToggle = false
+maxSeeAlsoItems = 5
+customCSS = []
+customSCSS = ["scss/custom.scss"]
+customJS = ["js/typewriter.js"]
+customRemoteJS = []
 
-[params.logo]
-image = "img/li.jpg"
-title = "Haitian LI"
-subtitle = "PhD Candidate"
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/lht97/"
 
-[params.sidebar]
-home = "right"
-list = "right"
-single = "right"
-widgets = ["recent", "categories", "taglist", "social", "languages"]
-
-[params.style.vars]
-highlightColor = "#016064"
-
-[params.thumbnail]
-visibility = ["list"]
-
-[params.widgets]
-recent_num = 5
-
-[params.widgets.social]
-github = "lht97"
-email = "lhtian97@gmail.com"
-
-[[params.widgets.social.custom]]
-title = "LinkedIn"
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 2
 url = "https://www.linkedin.com/in/li-haitian-595a74233/"
-icon = "svg/linkedin.svg"
+
+[[params.social]]
+name = "Email"
+icon = "fa-solid fa-envelope fa-2x"
+weight = 3
+url = "mailto:lhtian97@gmail.com"
+
+[languages.en]
+label = "English"
+title = "Haitian LI"
+
+[languages.en.params]
+author = "Haitian LI"
+description = "Haitian LI's personal website"
+keywords = "optimization,derivative-free optimization,direct search,mathematics,PhD"
+info = ["PhD Candidate in Applied Mathematics", "The Hong Kong Polytechnic University"]
+dateFormat = "January 2, 2006"
+
+[[languages.en.menu.main]]
+name = "Home"
+weight = 1
+url = "/"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 2
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Talks"
+weight = 3
+url = "talks/"
+
+[[languages.en.menu.main]]
+name = "Resume"
+weight = 4
+url = "documents/cv.pdf"
+
+[languages.zh]
+label = "中文"
+title = "李海天"
+
+[languages.zh.params]
+author = "李海天"
+description = "李海天的个人主页"
+keywords = "优化,无导数优化,直接搜索,数学,博士"
+info = ["应用数学博士研究生", "香港理工大学"]
+dateFormat = "2006年1月2日"
+
+[[languages.zh.menu.main]]
+name = "首页"
+weight = 1
+url = "/"
+
+[[languages.zh.menu.main]]
+name = "关于"
+weight = 2
+url = "about/"
+
+[[languages.zh.menu.main]]
+name = "报告"
+weight = 3
+url = "talks/"
+
+[[languages.zh.menu.main]]
+name = "简历"
+weight = 4
+url = "documents/cv.pdf"

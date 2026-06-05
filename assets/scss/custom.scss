@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
+
+// Override font family
+body {
+  font-family: "Inter", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+// Dark mode radial gradient background
+body.colorscheme-dark {
+  background: radial-gradient(ellipse at 50% 30%, #0f172a 0%, #020617 100%);
+  background-attachment: fixed;
+}
+
+body.colorscheme-auto {
+  @media (prefers-color-scheme: dark) {
+    background: radial-gradient(ellipse at 50% 30%, #0f172a 0%, #020617 100%);
+    background-attachment: fixed;
+  }
+}
+
+// Typewriter cursor effect
+.typewriter-text::after {
+  content: "|";
+  animation: blink 1s step-end infinite;
+  color: #14b8a6;
+  margin-left: 2px;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+// Timeline styles for About page
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+  margin: 2rem 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    bottom: 0.5rem;
+    width: 2px;
+    background: #1e293b;
+  }
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -2rem;
+    top: 0.35rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #14b8a6;
+    margin-left: -4px;
+  }
+}
+
+.timeline-date {
+  font-size: 1.5rem;
+  color: #94a3b8;
+  margin-bottom: 0.25rem;
+}
+
+.timeline-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.timeline-detail {
+  font-size: 1.5rem;
+  color: #e2e8f0;
+
+  a {
+    color: #e2e8f0;
+    text-decoration: none;
+
+    &::after {
+      display: none !important;
+    }
+
+    &:hover,
+    &:focus {
+      color: #14b8a6;
+      text-decoration: underline;
+    }
+  }
+}
+
+// Talks list: cancel flex, use hanging indent
+.list ul li:has(.talk-badge) {
+  display: block;
+  padding-left: 6.5rem;
+  text-indent: -6.5rem;
+  margin-bottom: 0.8rem;
+}
+
+// Talk type badges
+.talk-badge {
+  display: inline-block;
+  padding: 0.15em 0.6em;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-right: 1rem;
+  min-width: 5.5rem;
+  text-align: center;
+  text-indent: 0;
+}
+
+.talk-badge-oral {
+  background: rgba(20, 184, 166, 0.15);
+  color: #14b8a6;
+}
+
+.talk-badge-poster {
+  background: rgba(245, 158, 11, 0.15);
+  color: #f59e0b;
+}
+
+// Talks list compact spacing
+.post-content ul li p {
+  margin-bottom: 0.5em;
+}
+
+// Two-column homepage layout
+.about-split {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  width: 100%;
+  max-width: 110rem;
+  text-align: left;
+
+  .about-left {
+    flex: 0 0 auto;
+    text-align: center;
+    min-width: 22rem;
+  }
+
+  .about-right {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    max-width: 80rem;
+  }
+}
+
+// Fix left column height so typing animation doesn't shift the right column
+@media only screen and (min-width: 768.1px) {
+  .about-left {
+    min-height: 50rem;
+  }
+}
+
+// Home page welcome text
+.home-content {
+  text-align: left;
+  line-height: 1.7;
+
+  p {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+
+  a {
+    color: #14b8a6;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Typewriter cursor removal after completion
+.typewriter-done::after {
+  display: none;
+}
+
+// Widen global container
+.container {
+  max-width: 110rem;
+}
+
+// Reduce excessive top spacing on content pages
+.content header {
+  margin-top: 3.2rem;
+}
+
+// Vertically balance the homepage
+.container.centered {
+  min-height: calc(100vh - 14rem);
+}
+
+// Mobile: stack vertically
+@media only screen and (max-width: 768px) {
+  .about-split {
+    flex-direction: column;
+    gap: 2.5rem;
+
+    .about-left {
+      min-width: auto;
+    }
+
+    .about-right {
+      max-width: 100%;
+    }
+  }
+}
