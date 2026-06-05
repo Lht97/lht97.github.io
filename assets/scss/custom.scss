@@ -194,6 +194,16 @@ body.colorscheme-auto {
   max-width: 110rem;
 }
 
+// Navigation bar: larger text and height
+.navigation {
+  height: 7rem;
+
+  a,
+  span {
+    font-size: 2.0rem;
+  }
+}
+
 // Reduce excessive top spacing on content pages
 .content header {
   margin-top: 3.2rem;
