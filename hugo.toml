@@ -74,6 +74,11 @@ name = "Resume"
 weight = 4
 url = "documents/cv.pdf"
 
+[[languages.en.menu.main]]
+name = "Life"
+weight = 5
+url = "life/"
+
 [languages.zh]
 label = "中文"
 title = "李海天"
@@ -104,3 +109,8 @@ url = "talks/"
 name = "简历"
 weight = 4
 url = "documents/cv.pdf"
+
+[[languages.zh.menu.main]]
+name = "生活"
+weight = 5
+url = "life/"
