@@ -7,6 +7,8 @@ This page records the talks I am going to give, or I have given. Slides and the 
 
 ## 2026
 
+- <span class="talk-badge talk-badge-oral">Oral</span> [Blockwise Direct-Search Methods](/documents/2026_PhD_Symposium_Optimization_Algorithms_Software_Applications_Talk.pdf), [2026 PhD Symposium on Optimization Algorithms, Software and Applications](https://math.bit.edu.cn/tzgg/ae3d44f8ecf24c1486ef24b6391eb401.htm), Beijing, China, 2026.
+
 - <span class="talk-badge talk-badge-poster">Poster</span> [Blockwise Direct-Search Methods](/documents/poster.pdf), [International Workshop on Numerical Methods and Scientific Computing](https://events.polyu.edu.hk/nmsc/home), Hong Kong, China, 2026.
 
 ## 2024

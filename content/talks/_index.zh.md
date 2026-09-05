@@ -7,6 +7,8 @@ draft: false
 
 ## 2026
 
+- <span class="talk-badge talk-badge-oral">口头报告</span> [分块直接搜索方法](/documents/2026_PhD_Symposium_Optimization_Algorithms_Software_Applications_Talk.pdf)，[2026 优化算法软件与应用博士研究生前沿研讨会](https://math.bit.edu.cn/tzgg/ae3d44f8ecf24c1486ef24b6391eb401.htm)，中国北京，2026。
+
 - <span class="talk-badge talk-badge-poster">海报</span> [分块直接搜索方法](/documents/poster.pdf)，[国际数值方法与科学计算研讨会](https://events.polyu.edu.hk/nmsc/home)，中国香港，2026。
 
 ## 2024
