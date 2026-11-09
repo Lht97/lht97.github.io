@@ -7,7 +7,7 @@ This page records the talks I am going to give, or I have given. Slides and the 
 
 ## 2026
 
-- <span class="talk-badge talk-badge-oral">Oral</span> [Blockwise Direct Search Methods for Derivative-free Optimization](/documents/GORS2026_slides.pdf), [2026 Annual Meeting of the Guangdong Operations Research Society](/documents/GORS2026_handbook.pdf), Jiangmen, China, 2026.
+- <span class="talk-badge talk-badge-oral">Oral</span> [Blockwise Direct Search Methods for Derivative-free Optimization](/documents/GORS2026_slides.pdf), [2026 Annual Meeting of the Guangdong Operations Research Society](https://mp.weixin.qq.com/s/4OTQEtWBGNrImyuLYGK-2Q), Jiangmen, China, 2026.
 
 - <span class="talk-badge talk-badge-oral">Oral</span> [Blockwise Direct-Search Methods](/documents/2026_PhD_Symposium_Optimization_Algorithms_Software_Applications_Talk.pdf), [2026 PhD Symposium on Optimization Algorithms, Software and Applications](https://math.bit.edu.cn/tzgg/ae3d44f8ecf24c1486ef24b6391eb401.htm), Beijing, China, 2026.
 

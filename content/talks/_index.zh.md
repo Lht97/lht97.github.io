@@ -7,7 +7,7 @@ draft: false
 
 ## 2026
 
-- <span class="talk-badge talk-badge-oral">口头报告</span> [用于无导数优化的分块直接搜索方法](/documents/GORS2026_slides.pdf)，[广东省运筹学会2026年学术年会](/documents/GORS2026_handbook.pdf)，中国江门，2026。
+- <span class="talk-badge talk-badge-oral">口头报告</span> [用于无导数优化的分块直接搜索方法](/documents/GORS2026_slides.pdf)，[广东省运筹学会2026年学术年会](https://mp.weixin.qq.com/s/4OTQEtWBGNrImyuLYGK-2Q)，中国江门，2026。
 
 - <span class="talk-badge talk-badge-oral">口头报告</span> [分块直接搜索方法](/documents/2026_PhD_Symposium_Optimization_Algorithms_Software_Applications_Talk.pdf)，[2026 优化算法软件与应用博士研究生前沿研讨会](https://math.bit.edu.cn/tzgg/ae3d44f8ecf24c1486ef24b6391eb401.htm)，中国北京，2026。
 
